@@ -1,7 +1,7 @@
 // src/ApiHunter.js
 import React, { useState } from "react";
 import axios from "axios";
-import './app.css'
+import './api.css'
 
 const ApiHunter = () => {
   const [url, setUrl] = useState(""); // URL for the API request
